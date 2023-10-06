@@ -194,39 +194,42 @@
     animation: animation_flower_b 4s infinite;
   }
   #c_img {
-    animation: animation_flower_c 4s  infinite;
+    animation: animation_flower_c 4s infinite;
   }
 
   @keyframes animation_flower_a {
     0% {
       visibility: visible;
     }
-    40%, 100% {
+    40%,
+    100% {
       visibility: hidden;
     }
-}
+  }
 
-@keyframes animation_flower_b {
-    0%, 40% {
+  @keyframes animation_flower_b {
+    0%,
+    40% {
       visibility: hidden;
     }
     41% {
       visibility: visible;
     }
-    70%, 100% {
+    70%,
+    100% {
       visibility: hidden;
     }
-}
+  }
 
-@keyframes animation_flower_c {
-    0%, 70% {
+  @keyframes animation_flower_c {
+    0%,
+    70% {
       visibility: hidden;
     }
     71% {
       visibility: visible;
     }
-}
-
+  }
 
   header {
     grid-area: header;
@@ -383,4 +386,3 @@ footer {
 .search {
   background-color: #f06292;
 }
-
