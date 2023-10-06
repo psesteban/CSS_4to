@@ -165,6 +165,7 @@
     filter: brightness(130%) sepia(0%);
   }
   aside {
+    background-color: #f50057;
     grid-area: aside;
     position: relative;
     overflow: hidden;
